@@ -1,1 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE students-adaptability-level-online-education [
+	<!ELEMENT students-adaptability-level-online-education (student)>
+	<!ELEMENT student (gender, age, education, institution, it-student, location, load-shedding, financial, internet, network)>
+
+	<!ELEMENT student (#PCDATA)>
+	<!ELEMENT gender (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT education (#PCDATA)>
+	<!ELEMENT institution (#PCDATA)>
+	<!ELEMENT it-student (#PCDATA)>
+	<!ELEMENT location (#PCDATA)>
+	<!ELEMENT load-shedding (#PCDATA)>
+	<!ELEMENT financial (#PCDATA)>
+	<!ELEMENT internet (#PCDATA)>
+	<!ELEMENT network (#PCDATA)>
+
+	<!ATTLIST student row CDATA #REQUIRED>
+
+
+]>
+
+<students-adaptability-level-online-education>
+	<student row="1">
+		<gender>Boy</gender>
+		<age>21-25</age>
+		<education>University</education>
+		<institution>Non Government</institution>
+		<it-student>No</it-student>
+		<location>Yes</location>
+		<load-shedding>Low</load-shedding>
+		<financial>Mid</financial>
+		<internet>Wifi</internet>
+		<network>4G</network>
+	</student>
+	<student row="2">
+		<gender>Girl</gender>
+		<age>21-25</age>
+		<education>University</education>
+		<institution>Non Government</institution>
+		<it-student>No</it-student>
+		<location>Yes</location>
+		<load-shedding>High</load-shedding>
+		<financial>Mid</financial>
+		<internet>Mobile Data</internet>
+		<network>4G</network>
+	</student>
+	<student row="3">
+		<gender>Girl</gender>
+		<age>16-20</age>
+		<education>College</education>
+		<institution>Government</institution>
+		<it-student>No</it-student>
+		<location>Yes</location>
+		<load-shedding>Low</load-shedding>
+		<financial>Mid</financial>
+		<internet>Wifi</internet>
+		<network>4G</network>
+	</student>
+	<student row="4">
+		<gender>Girl</gender>
+		<age>15-November</age>
+		<education>School</education>
+		<institution>Non Government</institution>
+		<it-student>No</it-student>
+		<location>Yes</location>
+		<load-shedding>Low</load-shedding>
+		<financial>Mid</financial>
+		<internet>Mobile Data</internet>
+		<network>4G</network>
+	</student>
+	<student row="5">
+		<gender>Girl</gender>
+		<age>16-20</age>
+		<education>School</education>
+		<institution>Non Government</institution>
+		<it-student>No</it-student>
+		<location>Yes</location>
+		<load-shedding>Low</load-shedding>
+		<financial>Poor</financial>
+		<internet>Mobile Data</internet>
+		<network>3G</network>
+	</student>
+	<student row="6">
+		<gender>Boy</gender>
+		<age>15-November</age>
+		<education>School</education>
+		<institution>Non Government</institution>
+		<it-student>No</it-student>
+		<location>Yes</location>
+		<load-shedding>Low</load-shedding>
+		<financial>Poor</financial>
+		<internet>Mobile Data</internet>
+		<network>3G</network>
+	</student>
+	<student row="7">
+		<gender>Boy</gender>
+		<age>15-November</age>
+		<education>School</education>
+		<institution>Non Government</institution>
+		<it-student>No</it-student>
+		<location>Yes</location>
+		<load-shedding>Low</load-shedding>
+		<financial>Mid</financial>
+		<internet>Wifi</internet>
+		<network>4G</network>
+	</student>
+	<student row="8">
+		<gender>Boy</gender>
+		<age>15-November</age>
+		<education>School</education>
+		<institution>Non Government</institution>
+		<it-student>No</it-student>
+		<location>Yes</location>
+		<load-shedding>Low</load-shedding>
+		<financial>Mid</financial>
+		<internet>Wifi</internet>
+		<network>4G</network>
+	</student>
+	<student row="9">
+		<gender>Boy</gender>
+		<age>16-20</age>
+		<education>College</education>
+		<institution>Government</institution>
+		<it-student>No</it-student>
+		<location>Yes</location>
+		<load-shedding>Low</load-shedding>
+		<financial>Mid</financial>
+		<internet>Wifi</internet>
+		<network>4G</network>
+	</student>
+	<student row="10">
+		<gender>Boy</gender>
+		<age>15-November</age>
+		<education>School</education>
+		<institution>Non Government</institution>
+		<it-student>No</it-student>
+		<location>Yes</location>
+		<load-shedding>Low</load-shedding>
+		<financial>Mid</financial>
+		<internet>Mobile Data</internet>
+		<network>3G</network>
+	</student>
+
+</students-adaptability-level-online-education>
